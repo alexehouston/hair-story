@@ -7,10 +7,15 @@
     align-items: center;
 }
 
+.Services h6 {
+    font-family: 'Italiana', serif;
+    font-size: 2vmin;
+    text-transform: uppercase;
+}
+
 .Services ul {
-    font-size: 2.5vmin;
-    font-weight: 300;
-    line-height: 2;
+    font-size: 1.5vmin;
+    padding: 1vmin 0 3.5vmin 0;
 }
 
 @media only screen and (max-width: 500px) {
