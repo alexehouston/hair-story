@@ -30,9 +30,16 @@
         transform: translate(0);
     }
 
-    .Services ul {
-        font-size: 5vmin;
-        margin-top: -15vmin;
+    .Services h6 {
+        font-size: 4.25vmin;
+    }
+
+    .services-ul, .facials {
+        font-size: 3.25vmin;
+    }
+
+    .services-ul {
+        padding: 1vmin 0 5vmin 0;
     }
     
 }
