@@ -6,7 +6,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <div className="Contact">
-        <div className="animate__animated animate__fadeInLeft hours">
+        <div className="hours">
             <h2>Hours</h2>
             <ul>
                 <li>Mon&emsp;9:00AM - 7:00PM</li>
@@ -18,7 +18,7 @@ export default function Contact() {
                 <li>Sun&emsp;1:00PM - 7:00PM</li>
             </ul>
         </div>
-        <ul className="animate__animated animate__fadeInRight contact-info">
+        <ul className="contact-info">
             <li>
                 <FontAwesomeIcon icon={faPhone} />&ensp;<a className="button" href="tel:910-867-8808">(910) 867-8808</a>
             </li>

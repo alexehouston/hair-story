@@ -3,6 +3,16 @@
     column-gap: 5vmin;
 }
 
+.hours {
+    animation: fadeInLeft;
+    animation-duration: 1s;
+}
+
+.contact-info {
+    animation: fadeInRight;
+    animation-duration: 1s;
+}
+
 .hours, .contact-info {
     width: 30vmin;
 }
@@ -41,4 +51,35 @@
 
 .directions {
     line-height: 3;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Contact {
+        flex-direction: column;
+        width: 100%;
+        row-gap: 10vmin;
+        margin-top: 20vmin;
+    }
+    
+    .Contact li { 
+        text-align: center;
+    }
+
+    .hours, .contact-info {
+        width: 100%;
+    }
+
+    .hours h2 {
+        font-size: 5vmin;
+    }
+
+    .hours li, .contact-info, .button {
+        font-size: 4vmin;
+    }
+    
+    .button {
+        padding: .5vmin 2vmin;
+    }
+    
 }

@@ -1,11 +1,11 @@
 .Footer {
+    position: fixed;
+    bottom: 0;
     display: flex;
     justify-content: center;
 }
 
 .Footer p {
-    position: fixed;
-    bottom: 0;
     font-size: 1.25vmin;
     padding: 1vmin;
 }

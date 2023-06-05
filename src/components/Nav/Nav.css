@@ -26,6 +26,7 @@
 .nav-link, .booking-link {
     font-family: 'Outfit', sans-serif;
     transition: all 1s ease;
+    font-weight: 300;
 }
 
 .Nav h1:hover, .nav-link:hover, .booking-link:hover {

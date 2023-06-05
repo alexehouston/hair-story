@@ -7,6 +7,8 @@ export default function Services() {
             <li>Coloring Services</li>
             <li>Hairstyling Services</li>
             <li>Hair Treatment Services</li>
+            <li>Facial Services</li>
+            <li>Make Up Services</li>
         </ul>
     </div>
   );

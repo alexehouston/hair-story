@@ -1,5 +1,7 @@
 .Home {
-    background-color: rgba(0, 0, 0, 0.1);
+    background-image: url("https://www.healthwellbeing.com/wp-content/uploads/2021/03/The-ultimate-guide-to-shiny-healthy-hair-1.jpg");
+    background-size: cover;
+    background-position: center;
     width: 100vw;
     height: 60vh;
 }
