@@ -1,9 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Italiana&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
+:root {
+    --beige: #FDFAF6;
+    --mauve: #D5BDAF;
+    --darkbrown: #4b392b;
+  }
+
 * {
     box-sizing: border-box;
     margin: 0 auto;
+    text-align: center;
 }
 
 .App {
@@ -13,10 +20,17 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
-    background-color: #fdfaf6;
+    background-color: var(--beige);
     font-family: 'Outfit', sans-serif;
+    color: var(--darkbrown);
 }
 
 ul, li {
     list-style-type: none;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--darkbrown);
 }

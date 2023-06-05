@@ -45,7 +45,7 @@
     height: 2px;
     bottom: -.5vmin;
     left: 0;
-    background-color: rgb(148, 113, 62);
+    background-color: var(--mauve);
     transform-origin: bottom right;
     transition: transform 0.25s ease-out;
 }

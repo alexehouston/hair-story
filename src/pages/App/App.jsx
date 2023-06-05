@@ -3,7 +3,6 @@ import Nav from "../../components/Nav/Nav";
 import Services from "../Services/Services"
 import About from "../About/About"
 import Contact from "../Contact/Contact"
-import Book from "../../components/Book/Book"
 import Home from "../../components/Home/Home"
 import Footer from "../../components/Footer/Footer";
 import 'animate.css';
@@ -19,7 +18,6 @@ export default function App() {
       {currentPage === 'services' ? ( <Services /> )
       : currentPage === 'about' ? ( <About /> )
       : currentPage === 'contact' ? ( <Contact /> )
-      : currentPage === 'book' ? ( <Book /> )
       : ( <Home /> )}
 
       <Footer />

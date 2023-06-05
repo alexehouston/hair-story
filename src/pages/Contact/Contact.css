@@ -1,0 +1,44 @@
+.Contact {
+    display: flex;
+    column-gap: 5vmin;
+}
+
+.hours, .contact-info {
+    width: 30vmin;
+}
+
+.hours h2 {
+    padding-bottom: 2vmin;
+}
+
+.hours ul {
+    width: 65%;
+}
+
+.hours li {
+    line-height: 2;
+    text-align: right;
+}
+
+.contact-info {
+    font-size: 2vmin;
+}
+
+.contact-info li {
+    text-align: left;
+    padding: 2.5vmin;
+}
+
+.button {
+    border-radius: 25px;
+    font-size: 1.75vmin;
+    font-weight: 600;
+    background-color: white;
+    color: var(--darkbrown);
+    border: 1px solid var(--darkbrown);
+    padding: 0.25vmin 1vmin;
+}
+
+.directions {
+    line-height: 3;
+}
