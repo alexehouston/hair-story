@@ -20,18 +20,18 @@ export default function Contact() {
         </div>
         <ul className="contact-info">
             <li>
-                <FontAwesomeIcon icon={faPhone} />&ensp;<a className="button" href="tel:910-867-8808">(910) 867-8808</a>
+                <FontAwesomeIcon icon={faPhone} />&emsp;<a className="button" href="tel:910-867-8808">(910) 867-8808</a>
             </li>
             <li>
-                <FontAwesomeIcon icon={faBuilding} />&ensp;<a className="directions button" href="https://www.yelp.com/map/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Get Directions</a>
+                <FontAwesomeIcon icon={faBuilding} />&emsp;<a className="directions button" href="https://www.yelp.com/map/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Get Directions</a>
                 <br />
-                &emsp;&nbsp;404 Santa Fe Dr.
+                &emsp;&emsp;404 Santa Fe Dr.
                 <br />
-                <span className="address">&emsp;&nbsp;Fayetteville, NC 28303</span>
+                <span className="address">&emsp;&emsp;Fayetteville, NC 28303</span>
                 
             </li>
             <li>
-                <FontAwesomeIcon icon={faYelp} size="lg" />&ensp;<a className="button" href="https://www.yelp.com/biz/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Leave A Yelp Review</a>
+                <FontAwesomeIcon icon={faYelp} size="lg" />&ensp;&ensp;<a className="button" href="https://www.yelp.com/biz/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Leave A Yelp Review</a>
             </li>
         </ul>
     </div>
