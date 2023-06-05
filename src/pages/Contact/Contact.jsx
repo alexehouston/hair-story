@@ -5,7 +5,7 @@ import './Contact.css';
 
 export default function Contact() {
   return (
-    <div className="Contact">
+    <div className="Contact animate__animated animate__fadeIn animate__slow">
         <div className="hours">
             <h2>Hours</h2>
             <ul>
