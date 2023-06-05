@@ -13,9 +13,14 @@
     text-transform: uppercase;
 }
 
-.Services ul {
+.services-ul {
     font-size: 1.5vmin;
     padding: 1vmin 0 3.5vmin 0;
+}
+
+.facials {
+    font-size: 1.5vmin;
+    padding: 1vmin 0;
 }
 
 @media only screen and (max-width: 500px) {
