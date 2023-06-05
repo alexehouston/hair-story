@@ -6,3 +6,11 @@
     height: 65vh;
     transform: translate(0, 5%);
 }
+
+@media only screen and (max-width: 500px) {
+
+    .Home {
+        transform: translate(0);
+    }
+    
+}

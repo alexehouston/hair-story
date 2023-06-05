@@ -26,6 +26,10 @@
 
 @media only screen and (max-width: 500px) {
 
+    .Services {
+        transform: translate(0);
+    }
+
     .Services ul {
         font-size: 5vmin;
         margin-top: -15vmin;

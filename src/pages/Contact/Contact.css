@@ -65,6 +65,7 @@
         flex-direction: column;
         width: 100%;
         row-gap: 10vmin;
+        transform: translate(0);
     }
     
     .Contact li { 
