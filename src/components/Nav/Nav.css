@@ -1,0 +1,77 @@
+.Nav {
+    position: fixed;
+    top: 7%;
+    width: 100%;
+}
+
+.Nav h1 {
+    font-family: 'Italiana', serif;
+    font-size: 3.5vmin;
+    text-align: center;
+    line-height: 0.75;
+}
+
+.Nav span {
+    font-size: 3.2vmin;
+}
+
+.Nav ul {
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3.5vmin;
+}
+
+.nav-link, .booking-link {
+    font-family: 'Outfit', sans-serif;
+    transition: all 1s ease;
+}
+
+.Nav h1:hover, .nav-link:hover, .booking-link:hover {
+    cursor: pointer;
+}
+
+.hover {
+    display: inline-block;
+    position: relative;
+}
+  
+.hover::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -.5vmin;
+    left: 0;
+    background-color: rgb(148, 113, 62);
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Nav {
+        top: 6%;
+    }
+
+    .Nav h1 {
+        font-size: 7.5vmin;
+    }
+
+    .Nav span {
+        font-size: 6vmin;
+    }
+
+    .Nav ul {
+        padding: 5vmin;
+        width: 100%;
+    }
+    
+}

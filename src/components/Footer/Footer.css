@@ -1,0 +1,19 @@
+.Footer {
+    display: flex;
+    justify-content: center;
+}
+
+.Footer p {
+    position: fixed;
+    bottom: 0;
+    font-size: 1.25vmin;
+    padding: 1vmin;
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Footer p {
+        font-size: 2.5vmin;
+    }
+    
+}

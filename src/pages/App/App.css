@@ -13,4 +13,10 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+    background-color: #fdfaf6;
+    font-family: 'Outfit', sans-serif;
+}
+
+ul, li {
+    list-style-type: none;
 }
