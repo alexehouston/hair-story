@@ -9,13 +9,13 @@ export default function Contact() {
         <div className="hours">
             <h2>Hours</h2>
             <ul>
-                <li>Mon&emsp;9:00AM - 7:00PM</li>
-                <li>Tue&emsp;9:00AM - 7:00PM</li>
-                <li>Wed&emsp;9:00AM - 7:00PM</li>
-                <li>Thu&emsp;9:00AM - 7:00PM</li>
-                <li>Fri&emsp;9:00AM - 7:00PM</li>
-                <li>Sat&emsp;9:00AM - 7:00PM</li>
-                <li>Sun&emsp;1:00PM - 7:00PM</li>
+                <li><b>Mon</b>&emsp;10:00AM—7:00PM</li>
+                <li><b>Tue</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Closed</li>
+                <li><b>Wed</b>&emsp;10:00AM—7:00PM</li>
+                <li><b>Thu</b>&emsp;10:00AM—7:00PM</li>
+                <li><b>Fri</b>&emsp;10:00AM—7:00PM</li>
+                <li><b>Sat</b>&emsp;10:00AM—7:00PM</li>
+                <li><b>Sun</b>&emsp;&ensp;&nbsp;1:00PM—7:00PM</li>
             </ul>
         </div>
         <ul className="contact-info">

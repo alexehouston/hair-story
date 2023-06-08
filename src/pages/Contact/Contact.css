@@ -28,12 +28,13 @@
 }
 
 .hours ul {
-    width: 65%;
+    width: 70%;
+    text-align-last: right;
+    padding-right: 1vmin;
 }
 
 .hours li {
     line-height: 2;
-    text-align: right;
 }
 
 .contact-info {
@@ -68,9 +69,9 @@
         transform: translate(0);
     }
     
-    .Contact li { 
+    /* .Contact li { 
         text-align: center;
-    }
+    } */
 
     .hours, .contact-info {
         width: 100%;
