@@ -8,6 +8,14 @@
     transform: translate(0, 5%);
 }
 
+.Contact img {
+    width: 100%;
+    position: absolute;
+    opacity: 7%;
+    z-index: -1;
+    filter: saturate(500%);
+}
+
 .hours {
     animation: fadeInLeft;
     animation-duration: 1s;
@@ -67,6 +75,11 @@
         width: 100%;
         row-gap: 3vmin;
         transform: translate(0);
+    }
+
+    .Contact img {
+        width: auto;
+        height: 100%;
     }
     
     .hours ul {

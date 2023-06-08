@@ -2,6 +2,15 @@
     position: fixed;
     top: 6%;
     width: 100%;
+    overflow: visible;
+}
+
+.Nav img {
+    opacity: 0.2;
+    width: 13vmin;
+    position: absolute;
+    margin-top: -4.5vmin;
+    margin-left: -6.5vmin;
 }
 
 .Nav h1 {
@@ -62,6 +71,12 @@
 
     .Nav {
         top: 5%;
+    }
+
+    .Nav img {
+        width: 25vmin;
+        margin-top: -8vmin;
+        margin-left: -12vmin;
     }
 
     .Nav h1 {

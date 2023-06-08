@@ -6,6 +6,7 @@ import './Contact.css';
 export default function Contact() {
   return (
     <div className="Contact animate__animated animate__fadeIn animate__slow">
+        <img src="img/hair.png" alt="Hair Story" />
         <div className="hours">
             <h2>Hours</h2>
             <ul>
@@ -28,7 +29,6 @@ export default function Contact() {
                 &emsp;&emsp;404 Santa Fe Dr.
                 <br />
                 <span className="address">&emsp;&emsp;Fayetteville, NC 28303</span>
-                
             </li>
             <li>
                 <FontAwesomeIcon icon={faYelp} size="lg" />&ensp;&ensp;<a className="button" href="https://www.yelp.com/biz/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Yelp Reviews</a>

@@ -13,9 +13,11 @@
 }
 
 .About img {
+    width: 100%;
     position: absolute;
-    opacity: 0.05;
-    height: 120%;
+    opacity: 7%;
+    z-index: -1;
+    filter: saturate(500%);
 }
 
 @media only screen and (max-width: 500px) {
@@ -27,6 +29,11 @@
     .About p {
         width: 75%;
         font-size: 3.5vmin;
+    }
+
+    .About img {
+        width: auto;
+        height: 100%;
     }
     
 }

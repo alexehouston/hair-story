@@ -3,6 +3,7 @@ import './Services.css';
 export default function Services() {
   return (
     <div className="Services animate__animated animate__fadeIn animate__slow">
+        <img src="img/hair.png" alt="Hair Story" />
         <div className="animate__animated animate__fadeInUp">
             <h6>Coloring Services</h6>
             <ul className="services-ul">

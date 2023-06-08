@@ -8,10 +8,22 @@
     transform: translate(0, 5%);
 }
 
+.Services img {
+    width: 100%;
+    position: absolute;
+    opacity: 7%;
+    z-index: -1;
+    filter: saturate(500%);
+}
+
 .Services h6 {
     font-family: 'Italiana', serif;
     font-size: 2vmin;
     text-transform: uppercase;
+    border: 1px solid rgb(141, 53, 68);
+    border-radius: 25px;
+    background-color: rgb(253, 188, 199, 0.3);
+    padding: 0.25vmin 1.5vmin;
 }
 
 .services-ul {
@@ -28,6 +40,11 @@
 
     .Services {
         transform: translate(0);
+    }
+
+    .Services img {
+        height: 100%;
+        width: auto;
     }
 
     .Services h6 {
