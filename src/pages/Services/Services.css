@@ -20,9 +20,9 @@
     font-family: 'Italiana', serif;
     font-size: 2vmin;
     text-transform: uppercase;
-    border: 1px solid rgb(141, 53, 68);
+    /* border: 1px solid rgb(141, 53, 68); */
     border-radius: 25px;
-    background-color: rgb(253, 188, 199, 0.3);
+    background-color: rgba(245, 194, 204, 0.5);
     padding: 0.25vmin 1.5vmin;
 }
 

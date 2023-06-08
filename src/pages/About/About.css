@@ -6,18 +6,27 @@
     justify-content: center;
     align-items: center;
     transform: translate(0, 5%);
+    display: flex;
+    flex-direction: column;
 }
 
 .About p {
     width: 30%;
 }
 
-.About img {
+.hair-bg {
     width: 100%;
     position: absolute;
     opacity: 7%;
     z-index: -1;
     filter: saturate(500%);
+}
+
+.lotus {
+    width: 1.5%;
+    opacity: 0.7;
+    margin: 3vmin;
+
 }
 
 @media only screen and (max-width: 500px) {
@@ -31,9 +40,14 @@
         font-size: 3.5vmin;
     }
 
-    .About img {
+    .hair-bg {
         width: auto;
         height: 100%;
+    }
+
+    .lotus {
+        width: 5.5%;
+        margin: 2vmin;
     }
     
 }
