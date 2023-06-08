@@ -31,7 +31,7 @@ export default function Contact() {
                 
             </li>
             <li>
-                <FontAwesomeIcon icon={faYelp} size="lg" />&ensp;&ensp;<a className="button" href="https://www.yelp.com/biz/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Leave A Yelp Review</a>
+                <FontAwesomeIcon icon={faYelp} size="lg" />&ensp;&ensp;<a className="button" href="https://www.yelp.com/biz/hair-story-salon-fayetteville" target="_blank" rel="noreferrer">Yelp Reviews</a>
             </li>
         </ul>
     </div>

@@ -65,16 +65,20 @@
     .Contact {
         flex-direction: column;
         width: 100%;
-        row-gap: 10vmin;
+        row-gap: 3vmin;
         transform: translate(0);
     }
     
-    /* .Contact li { 
-        text-align: center;
-    } */
+    .hours ul {
+        padding-right: 12.5vmin;
+    }
 
     .hours, .contact-info {
         width: 100%;
+    }
+
+    .contact-info li {
+        text-align: center;
     }
 
     .hours h2 {
