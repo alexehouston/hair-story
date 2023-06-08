@@ -11,7 +11,7 @@ export default function Contact() {
             <h2>Hours</h2>
             <ul>
                 <li><b>Mon</b>&emsp;10:00AM—7:00PM</li>
-                <li><b>Tue</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&ensp;Closed</li>
+                <li><b>Tue</b>&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Closed</li>
                 <li><b>Wed</b>&emsp;10:00AM—7:00PM</li>
                 <li><b>Thu</b>&emsp;10:00AM—7:00PM</li>
                 <li><b>Fri</b>&emsp;10:00AM—7:00PM</li>
