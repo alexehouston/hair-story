@@ -12,6 +12,11 @@
     width: 30%;
 }
 
+.About img {
+    position: absolute;
+    opacity: 0.05;
+}
+
 @media only screen and (max-width: 500px) {
 
     .About {
