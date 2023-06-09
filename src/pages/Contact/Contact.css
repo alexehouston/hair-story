@@ -32,7 +32,12 @@
 }
 
 .hours h2 {
-    padding-bottom: 2vmin;
+    font-family: 'Italiana', serif;
+    text-transform: uppercase;
+    border-radius: 25px;
+    background-color: rgba(245, 194, 204, 0.5);
+    width: 40%;
+    margin-bottom: 1vmin;
 }
 
 .hours ul {
@@ -96,6 +101,7 @@
 
     .hours h2 {
         font-size: 5vmin;
+        width: 25%;
     }
 
     .hours li, .contact-info, .button {
